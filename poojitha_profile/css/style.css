@@ -1,0 +1,134 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sub {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.images {
+  width: 25%;
+  /* height: 75%; */
+  box-shadow: 10px 10px 10px #ddd;
+  border: 3px solid #ddd;
+  border-radius: 33px 0 33px 0;
+  margin: 1%;
+  padding: 1%;
+}
+.profile {
+  width: 98%;
+  height: 240px;
+  border-radius: 33px;
+}
+.contentinfo {
+  width: 60%;
+  box-shadow: 10px 10px 10px #ddd;
+  border: 3px solid #ddd;
+  border-radius: 33px 0 33px 0;
+  margin: 1%;
+  padding: 1%;
+}
+.contentinfo1 {
+    text-align: center;
+}
+hr {
+  width: 33%;
+  margin-left: 0;
+}
+.link{
+	margin: 1%;
+	text-decoration: none;
+	font-size: 18px;
+	color: #5062b4;
+}
+
+.info{
+	width: 5%;
+}
+.socialIcon{
+	width: 8%;
+  margin: 10px;
+}
+.about {
+  width: 80%;
+  box-shadow: 10px 10px 10px #ddd;
+  border-radius: 33px;
+  border-top: 3px solid #2cd3fa;
+  margin: 1%;
+  padding: 1%;
+}
+.about h2 {
+  text-align: center;
+  color: #000fff;
+  font-weight: bold;
+  font-family: fantasy;
+}
+.about p {
+  font-size: 23px;
+  font-style: italic;
+}
+.skill {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill_set {
+  width: 43%;
+  /* text-align: center; */
+  box-shadow: 10px 10px 10px 10px #ddd;
+  border-radius: 33px;
+  border-top: 3px solid #FF33E6;
+  margin: 1%;
+  padding: 1%;
+}
+.skill h2 {
+  color: #000fff;
+
+}
+.skill span{
+	border-radius: 10px;
+	border: 1px solid #5d6d7e;
+	background: #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+@media only screen and (min-width:320px) and (max-width: 480px){
+  .images {
+    width: 80%;
+    border-radius: 0 33px 0 33px;
+  }
+  .contentinfo {
+    width: 80%;
+    border-radius: 0 33px 0 33px;
+  }
+  .skill {
+    width: 85%;
+  }
+  .skill_set {
+    width: 85%;
+  }
+}
+
+
+/*Medium scale devices*/
+@media only screen and (min-width:481px) and (max-width: 768px){
+  .images {
+    width: 80%;
+    border-radius: 0 33px 0 33px;
+  }
+  .contentinfo {
+    width: 85%;
+    border-radius: 0 33px 0 33px;
+  }
+  .skill {
+    width: 90%;
+  }
+  .skill_set {
+    width: 90%;
+  }
+}
